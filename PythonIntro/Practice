@@ -1,0 +1,153 @@
+x = 1;
+y = "John"
+print(x)
+print(y)
+x = str(3)
+print(type(x))
+print(type(y))
+z = 7.7
+print(type(z))
+x, y, z = "Banana", "Orange", "Cherry"
+print(x)
+print(y)
+print(z)
+x, y, z = 1, 2, 3
+print(x)
+print(y)
+print(z)
+x = y = z = "orange"
+print(x, y, z)
+print(y)
+print(z)
+x = "Awesome"
+
+
+def myfunc():
+    print("Nipun is " + x)
+
+
+myfunc()
+x = "awesome"
+
+
+def myfunc1():
+    global x
+    x = "fantastic"
+
+
+myfunc1()
+
+print("Python is " + x)
+x = 1
+y = 2.8
+z = 1j
+print(type(x))
+print(type(y))
+print(type(z))
+x = 1  # int
+y = 2.8  # float
+z = 1j  # complex
+
+# convert from int to float:
+a = float(x)
+
+# convert from float to int:
+b = int(y)
+
+# convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+txt = "The best things in life are free!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
+
+b = "Hello, World!"
+print(b[0:10])
+a = "shahid"
+b = "Kapoor"
+c = a + b
+print(c)
+d = 15
+e = 4
+print('x+y', d + e)
+print('x-y', d - e)
+print('x*y', d * e)
+print('x/y', d / e)
+print('x//y', d // e)  # Quotient
+print('x**y', d ** e)  # To the power of x^y
+print('x%y', d % e)  # Remainder
+print('x>y', d > e)
+print('x<y', d < e)
+print('x==y', d == e)
+print('x!=y', d != e)
+print('x>=y', d >= e)
+print('x<=y', d <= e)
+x = 5
+x >>= 3  # right shift
+print(x)
+x = 5
+x <<= 3  # left shift
+print(x)
+this_list = ["apple", "banana", "cherry", "kiwi", "Mango", "Dragon Fruit"]
+print(this_list[:4])
+print(len(this_list))
+list1 = ["abc", 34, True, 40, "male"]
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+this_list.append("orange")
+print(this_list)
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+print(x)
+a = 33
+b = 33
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+a = 2
+b = 330
+print("A") if a > b else print("B")
+i = 1
+while i < 6:
+    print(i)
+    if i == 3:
+        break
+    i += 1
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+
+for x in "banana":
+    print(x)
+c = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum1 = 0
+for x in c:
+    sum1 = sum1 + x
+print(sum1)
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
